@@ -1,0 +1,52 @@
+/* Body Background */
+body {
+    background: #ced4d8;
+}
+/* h1 element color */
+h1 {
+    color: #ac6ac7;
+}
+/* All h2 element color */
+h2 {
+    color: rgb(255, 165, 0);
+}
+/* Made all li blue */
+li {
+    color: blue;
+}
+/* Made background of p elements gold */
+p {
+    background: gold;
+}
+/* assigned border to text inputs */
+input {
+    border: 5px dotted pink;
+}
+/* class first background color */
+.first  {
+    background: #ffffff;
+}
+/* id important border */
+#important {
+    border: 3px dashed blue;
+}
+/* p tags nested inside divs 30px font size */
+div > p {
+    font-size: 30px;
+}
+/* only input type email assigned a background color */
+input[type="email"] {
+    background: #808080;
+}
+/* gave both p elemenets inside 3rd div a background color */
+div:nth-of-type(3) p {
+background: hotpink;
+}
+/* 2nd p element inside 3rd dive border */
+div:nth-of-type(3) p~p {
+    border: 7px solid rgb(255, 255, 255);
+}
+em {
+    font-size: 25px;
+    color: seashell;
+}
